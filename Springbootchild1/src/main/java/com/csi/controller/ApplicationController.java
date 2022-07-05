@@ -22,5 +22,10 @@ public class ApplicationController {
 	public String getAddress() {
 		return "Pune Chinchwad";
 	}
+	
+	@GetMapping("/Skills")
+	public String getSkills() {
+		return "Java,Springboot,Hibernate,MYsql";
+	}
 
 }
