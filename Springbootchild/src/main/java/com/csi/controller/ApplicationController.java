@@ -22,10 +22,10 @@ public class ApplicationController {
 		
 	}
 	
-	@GetMapping("/Address1")
+	@GetMapping("/Location")
 	public String getAddress1() {
 		
-		return "Welcome in Pune";
+		return "Welcome in Beed";
 		
 	}
 
