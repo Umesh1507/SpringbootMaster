@@ -18,9 +18,9 @@ public class ApplicationController {
 		return "Bachlore in engineering";
 	}
 
-	@GetMapping("/Service")
+	@GetMapping("/Address")
 	public String getAddress() {
-		return "Software Developement";
+		return "Pune Chinchwad";
 	}
 
 }
