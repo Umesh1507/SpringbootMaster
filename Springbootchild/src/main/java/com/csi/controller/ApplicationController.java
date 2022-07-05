@@ -5,27 +5,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/V1")
+@RequestMapping("/api")
 public class ApplicationController {
-
-	@GetMapping("/Name")
-	public String getName() {
-		return "Umesh Navanath Thombre";
-	}
-
-	@GetMapping("/Education")
-	public String getEducation() {
-		return "Bachlore in engineering";
-	}
-
-	@GetMapping("/Address")
-	public String getAddress() {
-		return "Pune Chinchwad";
+	
+	@GetMapping("/service")
+	public String getService() {
+		
+		return "Welcome in my company";
+		
 	}
 	
-	@GetMapping("/Skills")
-	public String getSkills() {
-		return "Java,Springboot,Hibernate,MYsql";
+	@GetMapping("/Address")
+	public String getAddress() {
+		
+		return "Welcome in Pune";
+		
+	}
+	
+	@GetMapping("/Address1")
+	public String getAddress1() {
+		
+		return "Welcome in Pune";
+		
 	}
 
 }
